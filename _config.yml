@@ -1,1 +1,37 @@
-theme: front-cover
+# Site settings
+name: Murry Jeong (Munchang Jeong)
+description: "#틈만나면여행 #창업가를꿈꾸는개발자 #컴퓨터공학의탈을쓴산업공학도 #데이터를품은개발자"
+url: "jwnc.net"
+
+
+# Delete the lines you don't need
+# about 5 elements are recomended
+github_username:  comchangs
+facebook_username: comchangs
+twitter_username: comchangs
+linkedin_username: comchangs
+medium_username:  comchangs
+blog_url: "http://blog.jwnc.net"
+email: comchangs@gmail.copm
+
+
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "https://avatars2.githubusercontent.com/u/4101496"
+
+
+front_img: yes
+front_img_path: "imgs/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
+
+
+favicon_img: yes
+favicon_img_path: "imgs/favicon.ico"
+#favicon_img_path: "https://external.url/favicon.ico"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
