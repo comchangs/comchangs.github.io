@@ -45,6 +45,10 @@ permalink: /
                     {% if site.github_username %}
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
+                    
+                    {% if site.oss %}
+                    <li><a class="fa fa-2x fa-github" href="{{ site.oss }}"><span class="description">Murry's OSS</span></a></li>
+                    {% endif %}
 
                     {% if site.codepen_username %}
                     <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="description">CodePen</span></a></li>
